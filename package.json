@@ -1,0 +1,45 @@
+{
+  "name": "watchsync",
+  "description": "File watcher that performs rsync operation on change event.",
+  "version": "0.1.0",
+  "homepage": "",
+  "author": {
+    "name": "Kevin Li",
+    "email": "information@kevin-li.org"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/kevinlig/watchsync.git"
+  },
+  "bugs": {
+    "url": "https://github.com/kevinlig/watchsync/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/kevinlig/watchsync/blob/master/LICENSE"
+    }
+  ],
+  "main": "lib/watchsync",
+  "engines": {
+    "node": ">= 0.10.23"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "dependencies": {
+    "colors": "0.6.2",
+    "njs-watch": "0.1.1"
+  },
+  "devDependencies": {
+    "grunt-contrib-jshint": "~0.6.4",
+    "grunt-contrib-nodeunit": "~0.2.0",
+    "grunt-contrib-watch": "~0.5.3",
+    "grunt": "~0.4.2"
+  },
+  "keywords": [],
+  "preferGlobal": "true",
+  "bin": {
+    "watchsync": "lib/watchsync.js"
+  }
+}
