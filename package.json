@@ -1,7 +1,7 @@
 {
   "name": "watchsync",
   "description": "File watcher that performs rsync operation on change event.",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "homepage": "",
   "author": {
     "name": "Kevin Li",
